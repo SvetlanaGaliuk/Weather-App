@@ -1,0 +1,71 @@
+body {
+  color: #333344;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  color: blue;
+}
+
+strong {
+  font-size: 45px;
+}
+
+
+}
+
+.mb-3 {
+  border: 1.5px solid #333344;
+}
+
+.container {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+}
+
+.current_block {
+  display: block;
+  margin: 0 auto;
+  border: 1.5px solid #333344;
+  padding: 10px;
+  left: -50px;
+}
+
+.row-day {
+  display: block;
+  margin: 0 auto;
+  border: 1.5px solid #333344;
+  padding-left: 10px;
+  width: 385px;
+}
+
+.day {
+  display: block;
+}
+
+.temperature {
+  display: block;
+  margin: 0 auto;
+  padding: 30px 40px 10px;
+  font-size: 40px;
+}
+
+#current-location-button {
+  color: white;
+  background: green;
+  border-radius: 4px;
+  border-color: green;
+}
+
+#sun {
+  position: relative;
+
+  left: 20px;
+}
+#button-addon2 {
+  color: white;
+  background: blue;
+  border-radius: 4px;
+  border-color: blue;
