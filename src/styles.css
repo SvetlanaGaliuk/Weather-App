@@ -12,6 +12,10 @@ strong {
   font-size: 45px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .mb-3 {
   border: 1.5px solid #333344;
 }
@@ -35,7 +39,7 @@ strong {
   margin: 0 auto;
   border: 1.5px solid #333344;
   padding-left: 10px;
-  width: 385px;
+  width: 378px;
 }
 
 .day {
@@ -47,6 +51,13 @@ strong {
   margin: 0 auto;
   padding: 30px 40px 10px;
   font-size: 40px;
+}
+
+.open-source-code {
+  display: block;
+  margin: 0 auto;
+  width: 375px;
+  font-size: smaller;
 }
 
 #current-location-button {
