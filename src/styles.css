@@ -60,6 +60,21 @@ a {
   font-size: smaller;
 }
 
+.temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+
+.temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+
+.temperature .active:hover {
+  text-decoration: none;
+}
+
 #current-location-button {
   color: white;
   background: green;
