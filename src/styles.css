@@ -6,6 +6,7 @@ body {
 
 h1 {
   color: blue;
+  padding-top: 15px;
 }
 
 strong {
@@ -80,8 +81,16 @@ a {
   text-decoration: none;
 }
 
-.col {
-  padding: 10px 20px;
+.row-cols-4 {
+  padding: 0px 10px 10px;
+}
+
+.col-8 {
+  padding: 0px;
+}
+
+.col-4 {
+  padding: 0px;
 }
 
 #current-location-button {
@@ -92,8 +101,7 @@ a {
 
 #icon {
   position: relative;
-
-  left: 5px;
+  left: -20px;
 }
 #button-addon2 {
   color: white;
