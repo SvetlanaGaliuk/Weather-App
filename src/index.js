@@ -124,9 +124,6 @@ function displayTemperature(response) {
     response.data.wind.speed
   );
 
-  //dateElement = document.querySelector("#date");
-  //dateElement.innerHTML = formatDate(response.data.dt * 1000);
-
   let descriptionElement = document.querySelector("#description");
   descriptionElement.innerHTML = response.data.weather[0].description;
 
@@ -161,12 +158,19 @@ function showPosition(position) {
   axios.get(apiUrl).then(displayTemperature);
 }
 
-//function getCurrentLocation(event) {
-// event.preventDefault();
-// navigator.geolocation.getCurrentPosition(showPosition);
-//}
-
 let searchForm = document.querySelector("#search-form");
 searchForm.addEventListener("submit", handleSubmit);
+
+let cityKharkov = document.querySelector("#kharkov");
+cityKharkov.addEventListener("click", () => search("kharkov"));
+
+let cityCherkasy = document.querySelector("#cherkasy");
+cityCherkasy.addEventListener("click", () => search("cherkasy"));
+
+let cityKyiv = document.querySelector("#kyiv");
+cityKyiv.addEventListener("click", () => search("kyiv"));
+
+let cityLviv = document.querySelector("#lviv");
+cityLviv.addEventListener("click", () => search("lviv"));
 
 search("New York");

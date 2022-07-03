@@ -6,7 +6,7 @@ body {
 
 h1 {
   color: blue;
-  padding-top: 15px;
+  padding-top: 10px;
 }
 
 strong {
@@ -111,4 +111,18 @@ a {
 
 #description {
   text-transform: capitalize;
+}
+
+#kharkov,
+#cherkasy,
+#kyiv,
+#lviv {
+  color: #333344;
+}
+
+#kharkov:hover,
+#cherkasy:hover,
+#kyiv:hover,
+#lviv:hover {
+  opacity: 0.7;
 }
