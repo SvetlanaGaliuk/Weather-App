@@ -44,6 +44,7 @@ a {
 
 .day {
   display: block;
+  border: 1.5px solid #333344;
 }
 
 .temperature {
