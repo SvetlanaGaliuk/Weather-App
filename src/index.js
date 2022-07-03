@@ -70,6 +70,7 @@ function displayForecast(response) {
       forecastHTML =
         forecastHTML +
         `
+        <div class = "row-box">
         <div class="row">
            <div class="col">
              ${formatDay(forecastDay.dt)}
@@ -90,6 +91,7 @@ function displayForecast(response) {
         />
           </div>
 
+      </div>
       </div>
   `;
     }

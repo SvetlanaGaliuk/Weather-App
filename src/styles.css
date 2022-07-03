@@ -10,6 +10,7 @@ h1 {
 
 strong {
   font-size: 45px;
+  font-weight: normal;
 }
 
 a {
@@ -37,11 +38,13 @@ a {
 .row-day {
   display: block;
   margin: 0 auto;
-  border: 1.5px solid #333344;
-  padding-left: 10px;
-  width: 378px;
+  width: 373px;
 }
 
+.row-box {
+  border: 1.5px solid #333344;
+  padding-left: 10px;
+}
 .day {
   display: block;
   border: 1.5px solid #333344;
@@ -75,6 +78,10 @@ a {
 
 .temperature .active:hover {
   text-decoration: none;
+}
+
+.col {
+  padding: 10px 20px;
 }
 
 #current-location-button {
